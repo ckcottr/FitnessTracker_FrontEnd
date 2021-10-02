@@ -1,0 +1,9 @@
+* {
+    height: auto;
+}
+
+body {
+    margin: 15px 4fr;
+    height: 100%;
+    position: relative;
+}
