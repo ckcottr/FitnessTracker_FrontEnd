@@ -8,7 +8,7 @@ import Register from './components/register'
 import Routines from './components/routines'
 import Activities from './components/activities'
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom"
-import './components/style/home.css'
+import './style/style.css'
 import { getPosts } from './components/utilites/api'
 
 const App = () => {

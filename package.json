@@ -1,5 +1,5 @@
 {
-  "name": "FitnessTracker_FrontEnd",
+  "name": "fitnesstracker_frontend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,5 +29,16 @@
   "bugs": {
     "url": "https://github.com/ckcottr/FitnessTracker_FrontEnd/issues"
   },
-  "homepage": "https://github.com/ckcottr/FitnessTracker_FrontEnd#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
