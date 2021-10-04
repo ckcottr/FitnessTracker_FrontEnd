@@ -4,7 +4,7 @@ async function getUsers() {
     fetch(`${API}posts`)
 
     .then(response => response.json())
-    .then(callback => {
-        return callback;
+    .then(result => {
+        return result;
     })
 }

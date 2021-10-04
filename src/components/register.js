@@ -16,7 +16,7 @@ const Register = () => {
             })
         }).then(response => response.json())
         .then(result => {
-            localStorage.setItem("token", result.data.token)
+            localStorage.setItem("token", result.token)
             console.log(result);
         })
         .catch(console.error)

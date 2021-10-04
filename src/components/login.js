@@ -34,8 +34,7 @@ async function onSubmit(e) {
 }
 
     return (
-        <div>
-
+        <div id="login">
             <form onSubmit={saveToken, onSubmit}>
                 <input type="text" onChange={(event) => setUser(event.target.value)} value={user} required name="username" placeholder="username"></input>
                 <input type="password" onChange={(event) => setPassword(event.target.value)} value={password} required name="password" placeholder="password"></input>

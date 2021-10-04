@@ -8,12 +8,11 @@ import Register from './components/register'
 import Routines from './components/routines'
 import Activities from './components/activities'
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom"
-import './style/style.css'
-import { getPosts } from './components/utilites/api'
+import './components/style/home.css'
+
 
 const App = () => {
     const [isNewUser, setIsNewUser] = useState(true)
-    const [postList, setPostList] = useState([])
     const renderAuthForm = (e) => {
         if (isNewUser) {
             return <Login toggleNewUser={setIsNewUser} />

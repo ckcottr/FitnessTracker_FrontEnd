@@ -5,9 +5,9 @@ const activities = ({activitiesList, makeActivitiesList}) => {
     useEffect( function () {
         fetch('http://fitnesstrac-kr.herokuapp.com/api/activities')
                .then(response => response.json())
-               .then(callback => {
-                   console.log(callback);
-                   makeActivitiesList(callback)
+               .then(result => {
+                   console.log(result);
+                   makeActivitiesList(result)
                    
                })
                .catch(function (error){

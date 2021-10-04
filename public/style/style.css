@@ -1,0 +1,13 @@
+html{
+    height: 100%;
+    background-image: url("../images/fitness.jpg");
+
+}
+
+body {
+    margin: 10px 4fr;
+    height: 100%;
+    cursor: active;
+    position: relative;
+    
+  }
