@@ -18,7 +18,7 @@ const activities = ({activitiesList, makeActivitiesList}) => {
        }, []);
        console.log(activitiesList);
        const activitiesElement = activitiesList.map((activities) =>
-           <div id="listOfActivities">
+           <div id="allActivities">
                <h1>Activity#: {activities.id}</h1>
                <h2>Name: {activities.name}</h2>
                <h3>Description: {activities.description}</h3>

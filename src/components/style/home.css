@@ -1,3 +1,10 @@
+html {
+    background-image: url("/src/components/style/fitness.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 #navbar{
     background-color: rgb(8, 233, 233);
     display: flex;
@@ -22,11 +29,15 @@
     text-decoration: none;
 }
 
-#welcome {
+h1 {
+    color: white;
+}
+
+#home {
 display: flex;
 justify-content: center;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-color:black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:white;
 }
 
 #body {
@@ -34,46 +45,43 @@ color:black;
     justify-content: center;
     font-size: 24px;
     overflow-y: auto;
-    color:black;   
+    color:white;
 }
-#listOfRoutines{
+#allRoutines{
     border: 10px solid black;
     padding: 2%;
-    color:black
-    
+    color:white; 
 }
 
-#listOfActivities{
+#allActivities{
     border: 10px solid black;
     padding: 2%;
-    color:black
-    
+    color:white
 }
-
 
 #profile{
     text-align: center;
     padding: 50px;
-    color:black;
+    color:white;
 }
 
 #register {
     text-align: center;
     padding: 50px;
-    color:black;
+    color:white;
     
 }
 
 #login {
     padding: 50px;
-    color: black;
+    color: white;
     text-align: center;
     
 }
 
 #activityheader {
     padding: 50px;
-    color: black;
+    color: white;
     text-align: center;
     
 }
