@@ -1,5 +1,3 @@
-
-
 const Register = () => {
     async function handleSubmit(event) {
         event.preventDefault()

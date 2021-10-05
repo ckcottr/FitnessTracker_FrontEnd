@@ -18,7 +18,7 @@ const Routines = ({ routinesList, setRoutinesList }) => {
     }, []);
     console.log(routinesList);
     const routinesElement = routinesList.map((routines) =>
-        <div id="listOfRoutines">
+        <div id="allRoutines">
             <h1>User: {routines.creatorName}</h1>
             <h2>Name: {routines.name}</h2>
             <h3>goal: {routines.goal}</h3>

@@ -1,3 +1,10 @@
+html {
+    background-image: url("/src/components/style/fitness.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 #navbar{
     background-color: rgb(8, 233, 233);
     display: flex;
@@ -21,11 +28,24 @@
     display: inline-block;
     text-decoration: none;
 }
+<<<<<<< HEAD
 #welcome {
 display: flex;
 justify-content: center;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color:black;
+=======
+
+h1 {
+    color: white;
+}
+
+#home {
+display: flex;
+justify-content: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:white;
+>>>>>>> b34b5b3ead7539014ce3b6b5a0996f76e8a04d8c
 }
 
 #body {
@@ -33,46 +53,43 @@ color:black;
     justify-content: center;
     font-size: 24px;
     overflow-y: auto;
-    color:black;   
+    color:white;
 }
-#listOfRoutines{
+#allRoutines{
     border: 10px solid black;
     padding: 2%;
-    color:black
-    
+    color:white; 
 }
 
-#listOfActivities{
+#allActivities{
     border: 10px solid black;
     padding: 2%;
-    color:black
-    
+    color:white
 }
-
 
 #profile{
     text-align: center;
     padding: 50px;
-    color:black;
+    color:white;
 }
 
 #register {
     text-align: center;
     padding: 50px;
-    color:black;
+    color:white;
     
 }
 
 #login {
     padding: 50px;
-    color: black;
+    color: white;
     text-align: center;
     
 }
 
 #activityheader {
     padding: 50px;
-    color: black;
+    color: white;
     text-align: center;
     
 }
