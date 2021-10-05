@@ -1,4 +1,4 @@
-const API = 'http://fitnesstrac-kr.herokuapp.com/api'
+const API = 'https://fitnesstrac-kr.herokuapp.com/api'
 
 async function getUsers() {
     fetch(`${API}posts`)

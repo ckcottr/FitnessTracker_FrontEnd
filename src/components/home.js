@@ -7,7 +7,8 @@ const Home = () =>{
     return(
         <div id = "homepage">
         <h1 id="welcome">Welcome to Fitness Tracker!</h1>
-        <p id="body">This website is designed to help you with your fitness goals!.</p>
+        <p id="body">This website is designed to help you with your fitness goals!</p>
+        <p id="body">Please Login to continue.</p>
         </div>
     )
 }

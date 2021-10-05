@@ -1,13 +1,12 @@
-html{
-    height: 100%;
-    background-image: url("../images/fitness.jpg");
+*{
+    height: auto;
+    background-image: url("./src/images/fitness.jpg");
+    background-position: auto;
 
 }
 
-body {
-    margin: 10px 4fr;
-    height: 100%;
-    cursor: active;
-    position: relative;
+background {
+    height: 100vh;
+    background-image: url('./images/gym.jpg');
     
   }

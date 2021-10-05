@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 const activities = ({activitiesList, makeActivitiesList}) => {
     useEffect( function () {
-        fetch('http://fitnesstrac-kr.herokuapp.com/api/activities')
+        fetch('https://fitnesstrac-kr.herokuapp.com/api/activities')
                .then(response => response.json())
                .then(result => {
                    console.log(result);
