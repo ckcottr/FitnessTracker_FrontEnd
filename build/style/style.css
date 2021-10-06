@@ -1,0 +1,12 @@
+*{
+    height: auto;
+    background-image: url("./src/images/fitness.jpg");
+    background-position: auto;
+
+}
+
+background {
+    height: 100vh;
+    background-image: url('./images/gym.jpg');
+    
+  }
