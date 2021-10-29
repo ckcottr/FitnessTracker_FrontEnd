@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import ReactDOM from 'react-dom'
 
-const Routines = ({ routinesList, setRoutinesList }) => {
+const Routines = () => {
+    const [ routinesList, setRoutinesList ] = useState([]);
     useEffect(function () {
         fetch('https://fitnesstrac-kr.herokuapp.com/api/routines')
             .then(response => response.json())
@@ -16,8 +17,9 @@ const Routines = ({ routinesList, setRoutinesList }) => {
             })
 
     }, []);
-    console.log(routinesList);
-    const routinesElement = routinesList.map((routines) =>
+    const routinesElement = () => { 
+        console.log(routinesList);
+        return routinesList.map((routines) =>
         <div id="allRoutines">
             <h1>User: {routines.creatorName}</h1>
             <h2>Name: {routines.name}</h2>
@@ -25,10 +27,11 @@ const Routines = ({ routinesList, setRoutinesList }) => {
         </div>
 
     );
+    }
     return (
         <div >
             <h1 id="routinesheader">Routines</h1>
-            {routinesElement}
+            {routinesElement()}
         </div>
     )
 }
