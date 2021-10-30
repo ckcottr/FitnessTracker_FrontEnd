@@ -12,4 +12,5 @@ const Home = () =>{
     )
 }
 
+<button>Logout</button>
 export default Home

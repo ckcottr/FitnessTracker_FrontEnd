@@ -1,4 +1,4 @@
-TOKEN_KEY = 'user-token';
+const TOKEN_KEY = 'user-token';
 
 export default {
     grabToken: function() {
