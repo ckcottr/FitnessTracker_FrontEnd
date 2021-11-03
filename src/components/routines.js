@@ -24,6 +24,19 @@ const Routines = () => {
             <h1>User: {routines.creatorName}</h1>
             <h2>Name: {routines.name}</h2>
             <h3>goal: {routines.goal}</h3>
+            <h1>Activities</h1> 
+            {
+                routines.activities.map((activities) => {
+                    return (
+                        <div>
+                            <h2>Name: {activities.name}</h2>
+                            <p>Description: {activities.description}</p>
+                            <h2>Count: {activities.count}</h2>
+                            <h3>Duration: {activities.duration}</h3>
+                             </div> 
+                    )
+                })
+            }
         </div>
 
     );
